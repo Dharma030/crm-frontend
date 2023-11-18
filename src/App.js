@@ -31,7 +31,7 @@ function App() {
             <UserVerification />
           </Route>
 
-          <Route exact path="/dashboard">
+           <Route exact path="/dashboard">
             <Dashboard />
           </Route>
           <Route exact path="/add-ticket">
@@ -42,7 +42,7 @@ function App() {
           </Route>
           <Route exact path="/tickets">
             <TicketLists />
-          </Route>
+          </Route> 
 
           <PrivateRoute exact path="/dashboard">
             <Dashboard />
